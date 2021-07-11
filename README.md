@@ -21,6 +21,12 @@
  * In the Utils/Globals.py file, set the `TOKEN` value to your Discord application token
  * In the Utils/Globals.py file, set the `FFMPEG_EXECUTABLE` value to your FFmpeg executable
 
+ #### Music Files
+ * This repo does not host any music from the Animal Crossing games, you will need to acquire these files yourself.
+ * The music files are to be placed in the `music/` folder in the folder of the respective games.
+ * The hourly music filenames must represent the hour in 24 hour time, for example, the 5pm New Leaf music would be copied to `music/nl/` and be named `1700.mp3` with a final path of `music/nl/1700.mp3`
+ * The KK Slider and Aircheck music which go in the `music/kk` and `music/aircheck` folders, do not need to be renamed.
+
  ### Usage
  
  By default, the bot's command prefix is `!`
