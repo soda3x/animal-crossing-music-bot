@@ -11,7 +11,7 @@ client = commands.Bot(command_prefix='!')
 if (Globals.validate_globals()):
     print(Globals.validate_globals())
 
-print("Chriscord is currently running on:", os.name,
+print("Bot is currently running on:", os.name,
       platform.system(), platform.release())
 
 
